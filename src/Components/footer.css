@@ -1,0 +1,54 @@
+/* ======================= Footer Section ======================= */
+.footer {
+  background-color: var(--VeryDarkCyan);
+  text-align: left;
+}
+
+.footer .wrapper {
+  padding: 100px 0 30px;
+}
+
+.footer * {
+  color: var(--VeryPaleCyan);
+}
+
+.footer p, a{
+    margin: 0;
+    font-style: normal;
+}
+
+.footer__links{
+    margin-bottom: 3.5em;
+}
+
+.footer__links a{
+    margin: 20px 0;
+    font-size: 2rem;
+}
+
+/* =================== Social ==================== */
+.social {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.social a {
+  display: inline-block;
+  margin: 10px;
+  border: 2px solid white;
+  border-radius: 100%;
+  padding: 5px;
+  width: 40px;
+  color: #fff;
+}
+.social a:hover {
+  fill: var(--Pink);
+  border-color: var(--Pink);
+}
+
+.copy{
+    text-align: center;
+}
+
+address a, p {
+    margin-bottom: 30px;
+}
