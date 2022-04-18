@@ -6,20 +6,25 @@ This is a solution to the [Huddle landing page with alternating feature blocks c
 
 ## Table of contents
 
-- [Screenshot](#screenshot)
+- [Screenshot](#screenshot-desktop)
+- [Screenshot](#screenshot-mobile)
 - [Links](#links)
 - [Built with](#built-with)
 - [Author](#author)
 - [Date](#date)
 
-## Screenshot
+## Screenshot (Desktop)
 
-![](./screenshot.jpg)
+![](./desktop.png)
+
+## Screenshot (Mobile)
+
+![](./mobile.png)
 
 ## Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://your-solution-url.com)
+- Live Site URL: [Live](https://your-live-site-url.com)
 
 ## Built with
 
@@ -28,7 +33,7 @@ This is a solution to the [Huddle landing page with alternating feature blocks c
 ## Author
 
 - Name - Mirza Monirul Alam (Ethen)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [EthenPage](https://www.frontendmentor.io/profile/ethenpage)
 
 ## Date
 

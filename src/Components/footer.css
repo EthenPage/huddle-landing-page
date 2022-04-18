@@ -12,18 +12,19 @@
   color: var(--VeryPaleCyan);
 }
 
-.footer p, a{
-    margin: 0;
-    font-style: normal;
+.footer p,
+a {
+  margin: 0;
+  font-style: normal;
 }
 
-.footer__links{
-    margin-bottom: 3.5em;
+.footer__links {
+  margin-bottom: 3.5em;
 }
 
-.footer__links a{
-    margin: 20px 0;
-    font-size: 2rem;
+.footer__links a {
+  margin: 20px 0;
+  font-size: 2rem;
 }
 
 /* =================== Social ==================== */
@@ -35,9 +36,9 @@
   display: inline-block;
   margin: 10px;
   border: 2px solid white;
-  border-radius: 100%;
-  padding: 5px;
-  width: 40px;
+  border-radius: 50%;
+  width: 10%;
+  padding: 5px 0px;
   color: #fff;
 }
 .social a:hover {
@@ -45,10 +46,88 @@
   border-color: var(--Pink);
 }
 
-.copy{
-    text-align: center;
+.copy {
+  text-align: center;
 }
 
-address a, p {
-    margin-bottom: 30px;
+address {
+  margin: 25px 0 70px;
+}
+
+address div {
+  display: flex;
+  align-items: flex-start;
+  gap: 25px;
+  margin-bottom: 25px;
+}
+
+address img {
+  min-width: 20px;
+}
+
+.adjust {
+  margin-top: 7px;
+}
+
+.attribution {
+  text-align: center;
+  padding-bottom: 2em;
+}
+.attribution a {
+  display: inline;
+  color: rgb(247, 247, 8);
+}
+
+@media only screen and (min-width: 1024px) {
+  footer * {
+    font-size: 1.6rem !important;
+  }
+
+  .social a {
+    border: 1px solid #fff;
+    text-align: center;
+    width: 15%;
+    padding: 7px 0;
+  }
+
+  address {
+    margin: 25px 0 0;
+  }
+  .l-wrapper {
+    max-width: 1440px !important;
+    margin: 0px auto 0 !important;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr auto;
+    column-gap: 5%;
+    grid-template-areas:
+      "logo     .       .       ."
+      "address  links   links   social"
+      ".        .       .       copy";
+  }
+
+  .footer__logo {
+    grid-area: logo;
+  }
+
+  .footer__address {
+    grid-area: address;
+    max-width: 400px;
+  }
+
+  .footer__links {
+    grid-area: links;
+    display: flex;
+    gap: 30%;
+  }
+
+  .social {
+    grid-area: social;
+    text-align: left;
+  }
+
+  .copy {
+    grid-area: copy;
+    font-size: 1.2rem !important;
+  }
 }

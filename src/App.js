@@ -3,6 +3,7 @@ import Card from "./Components/Card";
 import Header from "./Components/Header";
 import IMAGES from "./Assets/Images";
 import Footer from "./Components/Footer";
+import Floatcard from "./Components/Floatcard";
 
 const App = () => {
   const data = [
@@ -32,6 +33,7 @@ const App = () => {
         <Card head={data[0].head} desc={data[0].desc} img={data[0].img} />
         <Card head={data[1].head} desc={data[1].desc} img={data[1].img} />
         <Card head={data[1].head} desc={data[2].desc} img={data[2].img} />
+        <Floatcard />
       </main>
       <Footer />
     </React.StrictMode>

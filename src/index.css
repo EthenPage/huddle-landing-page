@@ -10,7 +10,7 @@
 }
 
 img {
-  width: 100%;
+  max-width: 100%;
   display: block;
 }
 
@@ -150,7 +150,38 @@ p {
 
 .card p {
   color: var(--GrayishBlue);
+  
 }
+
+main{
+  position: relative;
+  padding-bottom: 150px;
+}
+
+.min-card {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transform: translateY(40%);
+  background-color: #fff;
+  max-width: 355px;
+  border: 1px solid var(--VeryPaleCyan);
+  border-radius: 20px;
+  box-shadow: 0px -2px 5px rgb(236, 236, 236);
+  margin: 0 auto;
+}
+
+.min-card h2{
+  font-size: 2rem;
+  padding: 40px 0 5px;
+  letter-spacing: 0;
+}
+
+.min-card .btn-normal{
+  margin-bottom: 50px;
+}
+
 
 /* ====================== Desktop ===================== */
 @media screen and (min-width: 1024px) {
@@ -222,7 +253,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 100px 0 300px;
+    margin: 100px 0;
   }
 
   .card {
@@ -260,4 +291,23 @@ p {
     /* flex: 1; */
     max-width: 520px;
   }
+
+  .min-card{
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+    transform: translateY(75%);
+  }
+
+  .min-card h2{
+    font-size: 3rem;
+  }
+
+  .min-card .btn-normal{
+    margin-bottom: 10px;
+  }
+  
 }
