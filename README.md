@@ -24,7 +24,7 @@ This is a solution to the [Huddle landing page with alternating feature blocks c
 ## Links
 
 - Solution URL: [Solution](https://your-solution-url.com)
-- Live Site URL: [Live](https://your-live-site-url.com)
+- Live Site URL: [Live](https://ethenpage.github.io/huddle-landing-page/)
 
 ## Built with
 
