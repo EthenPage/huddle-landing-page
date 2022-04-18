@@ -49,14 +49,14 @@ const Footer = () => {
         </address>
         <div className="footer__links">
           <div className="link-left">
-            <a href="">About Us</a>
-            <a href="">What We Do</a>
-            <a href="">FAQ</a>
+            <a href="#">About Us</a>
+            <a href="#">What We Do</a>
+            <a href="#">FAQ</a>
           </div>
           <div className="link-right">
-            <a href="">Career</a>
-            <a href="">Blog</a>
-            <a href="">Contact Us</a>
+            <a href="#">Career</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact Us</a>
           </div>
         </div>
         <div className="social">
@@ -80,7 +80,7 @@ const Footer = () => {
           {" "}
           Frontend Mentor
         </a>
-        .<br/> Coded by{" "}
+        .<br /> Coded by{" "}
         <a
           href="https://www.frontendmentor.io/profile/ethenpage"
           target="_blank"
