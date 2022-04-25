@@ -64,10 +64,10 @@ const Footer = () => {
             <i class="fa-brands fa-facebook-f"></i>
           </a>
           <a href="#" aria-lebel="facebook">
-            <i class="fa-brands fa-twitter"></i>{" "}
+            <i class="fa-brands fa-twitter"></i>
           </a>
           <a href="#" aria-lebel="facebook">
-            <i class="fa-brands fa-instagram"></i>{" "}
+            <i class="fa-brands fa-instagram"></i>
           </a>
         </div>
         <p className="copy">
