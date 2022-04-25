@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/huddle-landing-page/static/css/main.3252c6fb.css",
-    "main.js": "/huddle-landing-page/static/js/main.8f772973.js",
+    "main.js": "/huddle-landing-page/static/js/main.ff184929.js",
     "static/media/illustration-flowing-conversation.svg": "/huddle-landing-page/static/media/illustration-flowing-conversation.447b9b47aef8c266f047e609cbf11004.svg",
     "static/media/illustration-your-users.svg": "/huddle-landing-page/static/media/illustration-your-users.c07ebfaafd557ff00fa41ee62081bcac.svg",
     "static/media/illustration-grow-together.svg": "/huddle-landing-page/static/media/illustration-grow-together.3c29212c7a9ccd6cccf0412e4b520833.svg",
@@ -14,10 +14,10 @@
     "static/media/icon-location.svg": "/huddle-landing-page/static/media/icon-location.a681f02d94e561498fa0781c3538edac.svg",
     "static/media/icon-email.svg": "/huddle-landing-page/static/media/icon-email.19ab894b09784943bec7e08b3e1344a3.svg",
     "main.3252c6fb.css.map": "/huddle-landing-page/static/css/main.3252c6fb.css.map",
-    "main.8f772973.js.map": "/huddle-landing-page/static/js/main.8f772973.js.map"
+    "main.ff184929.js.map": "/huddle-landing-page/static/js/main.ff184929.js.map"
   },
   "entrypoints": [
     "static/css/main.3252c6fb.css",
-    "static/js/main.8f772973.js"
+    "static/js/main.ff184929.js"
   ]
 }
